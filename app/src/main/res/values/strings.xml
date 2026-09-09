@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">LetterBook</string>
+    <string-array name="generos_livro">
+        <item>Selecione um gênero</item>
+        <item>Ficção</item>
+        <item>Não-ficção</item>
+        <item>Romance</item>
+        <item>Terror</item>
+        <item>Fantasia</item>
+        <item>Biografia</item>
+        <item>Poesia</item>
+        <item>Drama</item>
+        <item>Suspense</item>
+        <item>Outro</item>
+    </string-array>
 </resources>
