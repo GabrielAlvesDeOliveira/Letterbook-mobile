@@ -53,4 +53,17 @@
         <item>2009</item>
     </string-array>
 
+    <array name="capas_livros">
+        <item>@drawable/alice_pais_maravilhas</item>
+        <item>@drawable/assassinato_expresso_oriente</item>
+        <item>@drawable/auto_barca_inferno</item>
+        <item>@drawable/cartografia_caminhos_incertos</item>
+        <item>@drawable/dom_casmurro</item>
+        <item>@drawable/hearstopper</item>
+        <item>@drawable/jurassic_park</item>
+        <item>@drawable/maridos_evelyn_hugo</item>
+        <item>@drawable/memorias_postumas_bras_cubas</item>
+        <item>@drawable/sobre_ossos_mortos</item>
+    </array>
+
 </resources>

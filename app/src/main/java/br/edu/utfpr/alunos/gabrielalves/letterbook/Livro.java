@@ -6,12 +6,14 @@ public class Livro {
     private String autor;
     private String genero;
     private int anoPublicacao;
+    private int capa;
 
-    public Livro(String titulo, String autor, String genero, int anoPublicacao) {
+    public Livro(String titulo, String autor, String genero, int anoPublicacao, int capa) {
         this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
         this.anoPublicacao = anoPublicacao;
+        this.capa = capa;
     }
 
     public String getTitulo() {
@@ -28,5 +30,9 @@ public class Livro {
 
     public int getAnoPublicacao() {
         return anoPublicacao;
+    }
+
+    public int getCapa() {
+        return capa;
     }
 }

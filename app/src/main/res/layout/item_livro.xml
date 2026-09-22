@@ -2,45 +2,62 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@color/marrom"
-    android:padding="16dp"
+    android:padding="12dp"
     android:layout_marginHorizontal="8dp"
     android:layout_marginVertical="4dp">
 
-    <TextView
-        android:id="@+id/text_titulo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/preto"
-        android:textStyle="bold"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/text_autor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/preto"
-        android:textSize="14sp" />
+    <ImageView
+        android:id="@+id/image_capa"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/descricao_capa" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="4dp">
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical">
 
         <TextView
-            android:id="@+id/text_genero"
-            android:layout_width="0dp"
+            android:id="@+id/text_titulo"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/cinza" />
+            android:textColor="@color/preto"
+            android:textStyle="bold"
+            android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/text_ano"
-            android:layout_width="wrap_content"
+            android:id="@+id/text_autor"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/cinza" />
+            android:textColor="@color/preto"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/text_genero"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/cinza" />
+
+            <TextView
+                android:id="@+id/text_ano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cinza" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

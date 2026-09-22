@@ -14,4 +14,5 @@
         <item>Outro</item>
     </string-array>
     <string name="titulo_acervo">Acervo Letterbook</string>
+    <string name="descricao_capa">Capa do livro</string>
 </resources>

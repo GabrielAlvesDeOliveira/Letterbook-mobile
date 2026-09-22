@@ -1,5 +1,5 @@
 package br.edu.utfpr.alunos.gabrielalves.letterbook;
-
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -37,10 +37,15 @@ public class ListaLivrosActivity extends AppCompatActivity {
         String[] generos = getResources().getStringArray(R.array.generos_livros);
         String[] anos = getResources().getStringArray(R.array.anos_livros);
 
+        TypedArray capas = getResources().obtainTypedArray(R.array.capas_livros);
+
         ArrayList<Livro> lista = new ArrayList<>();
         for (int i = 0; i < titulos.length; i++) {
-            lista.add(new Livro(titulos[i], autores[i], generos[i], Integer.parseInt(anos[i])));
+            int capaId = capas.getResourceId(i, 0);
+            lista.add(new Livro(titulos[i], autores[i], generos[i], Integer.parseInt(anos[i]), capaId));
         }
+        capas.recycle();
+
         return lista;
     }
 }
