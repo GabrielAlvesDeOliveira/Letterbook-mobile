@@ -13,4 +13,5 @@
         <item>Suspense</item>
         <item>Outro</item>
     </string-array>
+    <string name="titulo_acervo">Acervo Letterbook</string>
 </resources>

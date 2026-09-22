@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titulos_livros">
+        <item>Alice no País das Maravilhas</item>
+        <item>O Assassinato No Expresso Oriente</item>
+        <item>Auto da Barca do Inferno</item>
+        <item>Cartografia para caminhos incertos</item>
+        <item>Dom Casmurro</item>
+        <item>Hearstopper: Dois garotos, um encontro (Vol. 1)</item>
+        <item>Jurassic Park</item>
+        <item>Os Sete Maridos de Evelyn Hugo</item>
+        <item>Memórias Póstumas de Brás Cubas</item>
+        <item>Sobre os ossos dos mortos</item>
+    </string-array>
+
+    <string-array name="autores_livros">
+        <item>Lewis Carroll</item>
+        <item>Agatha Christie</item>
+        <item>Gil Vicente</item>
+        <item>Ian Fraser</item>
+        <item>Machado de Assis</item>
+        <item>Alice Oseman</item>
+        <item>Michael Crichton</item>
+        <item>Taylor Jenkins Reid</item>
+        <item>Machado de Assis</item>
+        <item>Olga Tokarczuk</item>
+    </string-array>
+
+    <string-array name="generos_livros">
+        <item>Fantasia</item>
+        <item>Policial</item>
+        <item>Teatro</item>
+        <item>Realismo Mágico</item>
+        <item>Romance</item>
+        <item>Romance Gráfico</item>
+        <item>Ficção Científica</item>
+        <item>Romance</item>
+        <item>Romance</item>
+        <item>Suspense</item>
+    </string-array>
+
+    <string-array name="anos_livros">
+        <item>1865</item>
+        <item>1934</item>
+        <item>1517</item>
+        <item>2025</item>
+        <item>1899</item>
+        <item>2018</item>
+        <item>1990</item>
+        <item>2017</item>
+        <item>1881</item>
+        <item>2009</item>
+    </string-array>
+
+</resources>
